@@ -33,8 +33,8 @@ def main():
 	print len(remaining)
 
 	#Storing app id and secret
-	appid = "1582658458614337"
-	appsecret = "c938c071248be2751bbde872cdc56262"
+	appid = "INSERT YOUR APP ID HERE"
+	appsecret = "INSERT YOUR APP SECRET HERE"
         
 	#Connecting to MongoDB
 	client = MongoClient('localhost', 27017)

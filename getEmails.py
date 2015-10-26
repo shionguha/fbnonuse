@@ -7,7 +7,7 @@ with open("longtermaccesstoken.txt","r") as file:
                 try:
                    graph = GraphAPI(access_token)
                    info = graph.get("me?fields=email,name,id")
-                   if (info['name'] not in ["Neha Deshmukh","Yihui Fu","Xiong Chu","Eric P. S. Baumer"]):
+                   if (info['name'] not in ["A","B","C","D"]):
                           a.append(info)
                 except:
                    print "Missed"

@@ -6,3 +6,15 @@ This is part of an academic project at Cornell University (http://idl.cornell.ed
 Description of files:
 
 index.html - FB Login button which enables access to facebook for any participant in our experiments.
+
+counts.py - captures counts of literally everything that can be grabbed from the fb api. e.g. events, likes, comments, updates, posts, pictures etc.
+
+fbgrab.py - init file to setup api access.
+
+friendinteractions.py - calculate the interaction of 2 friends in different events captured in counts.py
+
+initviz.py - setup the initial visualization of the facebook friend network
+
+newviz.py - actually create the visualization of the friend network - takes a lot of time.
+
+ltget.py - get the long term access token of a facebook user.
